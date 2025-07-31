@@ -27,8 +27,9 @@
             echo "<td>{$linha['nome']} </td>";
             echo "<td>{$linha['email']} </td>";
             echo "<td>";
-            echo "<a href='ClienteExcluir.php?indexcluir={$linha['id']}'>Excluir 🧹</a>"; 
-          echo "</tb>";
+            echo "<a href='ClienteExcluir.php?idexcluir={$linha['id']}'><img src='img/lixeira.png' width=25></a>"; 
+            
+          echo "</td>";
             echo "</tr>";
         }
 

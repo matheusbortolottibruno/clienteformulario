@@ -13,7 +13,7 @@ $resultado = mysqli_query($conexao, $sql);
 mysqli_close($conexao);
 
 
-header('location:clientelistar.php');
+header('location:clientelista.php');
 
 
 ?>

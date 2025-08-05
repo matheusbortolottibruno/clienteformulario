@@ -3,7 +3,7 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 
 
-$sql = "insert into bd_cliente(nome,email) values ('$nome', '$email')";
+$sql = "insert into bd_clientes(nome,email) values ('$nome', '$email')";
 
 
 include 'conexao.php';
